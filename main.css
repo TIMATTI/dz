@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(5, 5, 5);
+    color: rgb(199, 199, 199);
+    user-select: none;
+    display: grid;
+    justify-content: left;
+}
+
+.item {
+    padding: 0 20px;
+    color: limegreen;
+    display: inline-block;
+}
+
+n {
+    color: yellowgreen; 
+    justify-content: left
+}
+
+v {text-decoration: underline;}
+
+h1 {color: chocolate;}
+
+b {
+    color: olive;
+    font-size: 25px;
+}
+
+del {text-decoration-style: solid;}
+
+.wrapper {
+    max-width: 80%;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.wrapper img {
+    margin: 0.5%;
+    width: 500px;
+    height: 500px;
+}
+
+.item_img {
+    margin: 0.5%;
+    width: 600px;
+    height: 400px;
+    /*background-color: rgb(193, 255, 134);*/
+    border: solid 10px olive;
+    border-radius: 50px;
+    display: inline-block;
+    transition: all 3s;
+}
+
+.img1 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmAqOCfEliZnjFV-J0kv87sv_M-qHNNG_mug&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-position: 50% 50%;
+}
+
+.img2 {
+    background-image: url("https://avatars.mds.yandex.net/get-kinopoisk-post-img/2268018/8f704b6f512349a8cec9a93878489f85/960x540");
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-position: 50% 50%;
+}
+
+.img3 {
+    background-image: url("https://mixnews.lv/wp-content/uploads/2020/12/22/2020-12-22-mixnews-1603343148_1.jpg");
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-position: 50% 50%;
+}
+
+.item_img:hover {background-size: 120%}
